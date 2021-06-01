@@ -8,7 +8,7 @@ module.exports = {
 
   },
   async abreadd(req,res){
-    
+    res.render('admin/produto/add.ejs',{msg: req.flash('msg')})
 
   },
   async add(req,res){
