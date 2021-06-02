@@ -8,7 +8,9 @@ var caixaRoute = require('./routes/caixaRoute')
 const bodyParser = require('body-parser')
 const path = require('path')
 const flash = require('req-flash')
-const session = require('express-session')
+var session = require('express-session')
+
+require('./database/index')
 
 app.use(express.json())
 app.use(express.urlencoded({extended:true}))
