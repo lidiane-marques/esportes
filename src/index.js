@@ -5,7 +5,7 @@ var produtoRoute =require('./routes/produtoRoute')
 var quadraRoute = require('./routes/quadraRoute')
 var caixaRoute = require('./routes/caixaRoute')
 
-const bodyParser = require('body-parser')
+//const bodyParser = require('body-parser')
 const path = require('path')
 const flash = require('req-flash')
 var session = require('express-session')
